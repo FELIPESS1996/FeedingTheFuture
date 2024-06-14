@@ -14,7 +14,7 @@
 }
 
 .light {
-  --text-color: black;
+  --text-color: yellow;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
@@ -35,6 +35,25 @@ body {
 body * {
   font-family: "inter", sans-serif;
   color: var(--text-color);
+}
+
+
+.container img {
+  width: "80px";
+  height: "80px"; 
+  padding: auto; 
+  justify-content: center;
+}
+
+body{
+  
+  background-image: url(assets/fome.webp);
+  display: inline;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  background-size: cover;
+
 }
 
 #container {
